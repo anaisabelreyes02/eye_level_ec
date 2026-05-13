@@ -1,0 +1,7 @@
+:root {
+    --altura-navegacion-principal: 71px;
+}
+
+.contenedor-main {
+    padding-top: var(--altura-navegacion-principal);
+}
