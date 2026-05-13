@@ -24,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navegacion_superior">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="mx-auto gap-lg-3 navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
@@ -37,12 +37,11 @@
                 Programas
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Matemáticas</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Inglés</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -54,30 +53,33 @@
             <li class="nav-item">
               <a class="nav-link">FAQs</a>
             </li>
+            <li class="nav-item">
+              <a class="btn btn-danger rounded-5 mt-3 mt-lg-0 px-3">Contáctanos</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
-  <main class="container-fluid">
+  <main class="container-fluid mb-5">
     <h1 class="visually-hidden">Eye Level - Ecuador</h1>
-    <div>
-      <video autoplay muted loop playsinline class="w-100">
+    <div class="row">
+      <video class="w-100 p-0" autoplay muted loop playsinline>
         <source src="assets/images/mainpage_video_engsub.webm" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
 
     <section>
-      <header class="text-center p-5" data-aos="fade-up">
+      <header class="text-center p-5">
         <h2>Explora nuestros programas</h2>
         <p>Dos programas complementarios que construyen el pensamiento crítico y la comunicación de tu hijo desde las
           bases.</p>
       </header>
-      <div class="row justify-content-center">
-        <div class="col-11 col-md-3">
-          <article class="card" data-aos="fade-up">
+      <div class="row justify-content-center gap-5">
+        <div class="col-11 col-sm-7 col-md-5 col-xl-3">
+          <article class="card" data-aos="fade-up" data-aos-duration="2000">
             <header class="card-header text-center color-local-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -105,8 +107,8 @@
           </article>
         </div>
 
-        <div class="col-11 col-md-3">
-          <article class="card" data-aos="fade-up">
+        <div class="col-11 col-sm-7 col-md-5 col-xl-3">
+          <article class="card" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000">
             <header class="card-header text-center color-local-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -129,17 +131,33 @@
       </div>
     </section>
 
-    <footer></footer>
-
   </main>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
+  <footer class="row bg-black container-fluid text-white p-5">
+    <header class="col-lg-4 col-xl-3">
+      <img src="assets/images/Eye-Level-Ec-Blanco.webp" width="150">
+      <p>Somos un programa global de refuerzo académico en Matemáticas e Inglés enfocado en formar estudiantes con pensamiento crítico, autonomía y hábitos de aprendizaje para toda la vida.</p>
+    </header>
+    <section>
+
+    </section>
+    <section>
+
+    </section>
+    <section>
+
+    </section>
+  </footer>
+
+<!-- Sección de scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+  crossorigin="anonymous"></script>
+
 </body>
 
 </html>
