@@ -12,11 +12,19 @@
 }
 
 .fondo-local-1 {
-    background-color: rgb(var(--color-local-1) / 0.5);;
+    background-color: rgb(var(--color-local-1) / 0.2);
 }
 
 .fondo-local-2 {
-    background-color: rgb(var(--color-local-2) / 0.5);;
+    background-color: rgb(var(--color-local-2) / 0.1);
+}
+
+.borde-superior-1 {
+    border-top: rgb(var(--color-local-1) / 1) solid 6px;
+}
+
+.borde-superior-2 {
+    border-top: rgb(var(--color-local-2) / 1) solid 6px;
 }
 
 .card-body {
