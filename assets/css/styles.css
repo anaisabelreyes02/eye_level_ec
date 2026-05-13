@@ -1,21 +1,28 @@
 :root {
-    --color-local-1: rgb(207, 163, 57);
-    --color-local-2: rgb(100, 26, 30);
+    --color-local-1: 207 163 57;
+    --color-local-2: 100 26 30;
 }
 
 .color-local-1 {
-    color: var(--color-local-1);
+  color: rgb(var(--color-local-1) / 1);
 }
 
 .color-local-2 {
-    color: var(--color-local-2);
+  color: rgb(var(--color-local-2) / 1);
 }
 
 .fondo-local-1 {
-    background-color: var(--color-local-1);
+    background-color: rgb(var(--color-local-1) / 0.5);;
 }
 
 .fondo-local-2 {
-    background-color: var(--color-local-2);
+    background-color: rgb(var(--color-local-2) / 0.5);;
 }
 
+.card-body {
+    font-size: 18px;
+}
+
+.card {
+    box-shadow: 0 8px 30px #00000017;
+}
